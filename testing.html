@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="form.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <form id="contactForm">
+        <div class="row">
+            <div class="input-filled col-lg-6 col-md-6">
+                <label for="name">First2 Name:</label><br>
+                <input type="text" id="firstname" name="firstname"><br>
+            </div>
+            <div class="input-filled col-lg-6 col-md-6">
+                <label for="name">Last Name:</label><br>
+                <input type="text" id="lastname" name="lastname"><br>
+            </div>
+        </div>
+        <label for="mobile">Mobile Number:</label><br>
+        <input type="tel" id="mobile" name="mobile"><br>
+
+        <label for="enquiry">Enquiry:</label><br>
+        <textarea id="enquiry" name="enquiry"></textarea><br>
+
+        <button type="button" onclick="populateMailto()">Send</button>
+    </form>
+
+    <script src="emailScript.js"></script>
+
+
+    <div class="cardform">
+        <h2>Contact Us</h2>
+        <div class="rowform">
+            <div class="colform">
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="colform">
+                <div class="form-group">
+                    <label>Surname</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="colform">
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="colform">
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea></textarea>
+                </div>
+            </div>
+            <div class="colform">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

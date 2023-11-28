@@ -1,0 +1,113 @@
+ 
+  .cardform {
+    width: 90%;
+    padding: 5px 5px 5px 5px;
+    border: 6px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .cardform h2 {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  
+  .cardform .rowform {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid: auto / auto auto;
+    grid-template-columns: repeat(auto-fit,minmax(40%, 1fr)); 
+  }
+  
+  .cardform .rowform .colform {
+    position: relative;
+    width: 100%;
+    margin: 30px 20px 40px 0;
+    transition: 0.5s;
+  }
+  
+  .cardform .rowform .form-group {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #000000;
+  }
+  
+  .cardform .rowform .form-group input,
+  .cardform .rowform .form-group textarea {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 0 10px 20px;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    color: #000000;
+    border-radius: 50px;
+  }
+  
+  .cardform .rowform .form-group label {
+    line-height: 40px;
+    color: #000000;
+    font-size: 24px;
+    margin: 0 0 0 30px;
+    display: block;
+    pointer-events: none;
+  }
+  
+  .rowform .colform:nth-child(6) {
+    margin-top: 64px;
+  }
+  
+  .cardform .rowform .form-group input:focus,
+  .cardform .rowform .form-group textarea:focus {
+    border: 5px solid #000000;
+    transition: all 0.5s;
+  }
+  
+  .cardform .rowform input[type="submit"] {
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+    color: #000000;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 45px;
+    transition: all 0.4s;
+  }
+  
+  .cardform .rowform input[type="submit"]:hover {
+    border: 5px solid rgba(255, 255, 255, 1);
+    color: #000000;
+    transition: all 0.4s;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .cardform .rowform {
+      grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
+    }
+    
+    .cardform {
+      padding: 20px;
+    }
+    
+    .cardform h2 {
+      font-size: 34px;
+    }
+    
+    .cardform .rowform input[type="submit"] {
+      width: 100%;
+    }
+  }
