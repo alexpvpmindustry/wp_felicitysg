@@ -3013,7 +3013,7 @@ h4 {
     align-items: center;
     display: flex;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .card-outline {
@@ -3723,10 +3723,9 @@ h4 {
 }
 
 .project-background {
-    background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg);
-    background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     margin: -2px;
     position: absolute;
     top: 0%;
