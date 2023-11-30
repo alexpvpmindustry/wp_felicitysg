@@ -2309,11 +2309,6 @@ h4 {
     right: 0%
 }
 
-.background.testimonial-background {
-    background-image: url(https://uploads-ssl.webflow.com/61fd3cdb51b7b172b9d5c240/61fd3cdb51b7b156c2d5c39b_Image%20015.jpeg);
-    background-position: 50%
-}
-
 .background.skills-background {
     background-image: url(https://uploads-ssl.webflow.com/61fd3cdb51b7b172b9d5c240/622a5b8211247d8228683cb8_Some%20of%20our%20skills%20banner%20\(1\).jpg);
     background-position: 50%
@@ -2873,23 +2868,6 @@ h4 {
     grid-row-gap: 170px
 }
 
-.testimonial-slide-wrapper {
-    min-height: 700px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px;
-    padding-bottom: 120px;
-    display: flex
-}
-
-.testimonial-slider {
-    height: 100%;
-    max-width: 750px;
-    background-color: transparent;
-    justify-content: center;
-    padding-bottom: 80px;
-    display: flex
-}
 
 .slide-nav {
     display: none
@@ -2923,20 +2901,6 @@ h4 {
     right: 0
 }
 
-.testimonial-content {
-    width: 100%;
-    height: 100%;
-    grid-column-gap: 16px;
-    grid-row-gap: 36px;
-    text-align: center;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr;
-    grid-auto-columns: 1fr;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    display: grid
-}
 
 .mask {
     padding-top: 80px;
@@ -3013,7 +2977,7 @@ h4 {
     align-items: center;
     display: flex;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .card-outline {
@@ -3723,10 +3687,9 @@ h4 {
 }
 
 .project-background {
-    background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg);
-    background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     margin: -2px;
     position: absolute;
     top: 0%;
@@ -4221,15 +4184,6 @@ h4 {
     font-size: 10px
 }
 
-.testimonial-name {
-    grid-column-gap: 12px;
-    grid-row-gap: 12px;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr;
-    grid-auto-columns: 1fr;
-    display: grid
-}
-
 .background-wrapper-2 {
     background-color: transparent;
     background-image: url(https://uploads-ssl.webflow.com/61fd3cdb51b7b172b9d5c240/620532388ce871776a5a354a_3D85B4A2-DDF1-4576-BEFF-F9B06105FC78_1_105_c%20\(1\).webp);
@@ -4241,36 +4195,6 @@ h4 {
     left: 0%;
     right: 0%;
     overflow: hidden
-}
-
-.testimonial-credit {
-    grid-column-gap: 24px;
-    grid-row-gap: 16px;
-    grid-template-rows: auto;
-    grid-template-columns: auto 1fr;
-    grid-auto-columns: 1fr;
-    display: grid
-}
-
-.testimonial-items {
-    min-height: 450px;
-    background-color: #161a20;
-    margin-left: -79px;
-    position: relative;
-    overflow: hidden
-}
-
-.testimonial-card {
-    z-index: 20;
-    height: 100%;
-    grid-column-gap: 24px;
-    grid-row-gap: 16px;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    padding: 80px 0;
-    display: grid;
-    position: relative
 }
 
 .left-arrow-2 {
@@ -4302,12 +4226,6 @@ h4 {
     transform: rotate(-90deg)
 }
 
-.testimonial-image {
-    min-height: 425px;
-    margin-left: -24px;
-    position: relative;
-    overflow: hidden
-}
 
 .dark-fill {
     width: 100%;
@@ -4349,47 +4267,6 @@ h4 {
     background-image: url(https://uploads-ssl.webflow.com/61fd3cdb51b7b172b9d5c240/6246003ef64b7954201e2ff3_d1c6c90f-3398-4535-b459-d64be5cf8178.jpg)
 }
 
-.testimonial-quote {
-    grid-column-gap: 16px;
-    grid-row-gap: 80px;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr;
-    grid-auto-columns: 1fr;
-    align-content: space-between;
-    padding: 0 80px;
-    display: grid
-}
-
-.testimonial-feature {
-    background-image: url(https://uploads-ssl.webflow.com/61fd3cdb51b7b172b9d5c240/6217ba6c9c76b257f94ecdbd_F887A01A-7DD1-48CC-8BDB-BF9D4181CD66%20\(1\).jpg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: -5px;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%
-}
-
-.testimonial-feature.two {
-    background-image: url(https://uploads-ssl.webflow.com/61fd3cdb51b7b172b9d5c240/621ad65f1e0a7bdd94eb017d_0B0CF2BB-BBFC-46CA-93F3-2AEACD551D20%20\(1\).jpg)
-}
-
-.testimonial-feature.three {
-    background-image: url(https://uploads-ssl.webflow.com/61fd3cdb51b7b172b9d5c240/621ad75ed47b2e5adca86439_IMG_5507%20\(1\).jpeg);
-    background-position: 50% 0
-}
-
-.testimonial-feature.four {
-    background-image: url(https://uploads-ssl.webflow.com/61fd3cdb51b7b172b9d5c240/621ad7c7a9f320d881fea4f2_Option%203%20\(1\).jpg);
-    background-position: 50% 0
-}
-
-.testimonial-feature.five {
-    background-image: url(https://uploads-ssl.webflow.com/61fd3cdb51b7b172b9d5c240/6245ff6d449d052fde0679bf_3cdfb85b-88eb-49f9-84b3-01076749f054.jpg)
-}
 
 .grid-wrapper-4 {
     z-index: 20;
@@ -4433,14 +4310,6 @@ h4 {
     bottom: auto;
     left: auto;
     right: auto
-}
-
-.testimonial-slider-2 {
-    z-index: 500;
-    height: 100%;
-    background-color: #000;
-    padding-left: 80px;
-    position: relative
 }
 
 .clip {
@@ -6057,23 +5926,6 @@ h4 {
     padding-bottom: 120px
 }
 
-.testimonial-background {
-    grid-column-gap: 12px;
-    grid-row-gap: 0px;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-rows: auto;
-    grid-auto-columns: 1fr;
-    margin-top: auto;
-    margin-bottom: 12px;
-    display: grid;
-    position: relative;
-    top: 0%;
-    bottom: 0%;
-    left: 0;
-    right: 0;
-    overflow: visible
-}
 
 .number-circle {
     width: 475px;
@@ -8781,12 +8633,6 @@ h4 {
 }
 
 @media screen and (min-width:1280px) {
-    .testimonial-slide-wrapper {
-        min-height: 750px;
-        padding-top: 120px;
-        padding-bottom: 120px
-    }
-
     .logo-image {
         max-width: 80px
     }
@@ -8934,10 +8780,6 @@ h4 {
 @media screen and (min-width:1440px) {
     .heading.large {
         text-align: left
-    }
-
-    .testimonial-slide-wrapper {
-        min-height: 850px
     }
 
     .projects-grid.dual {
@@ -9338,10 +9180,6 @@ h4 {
         grid-row-gap: 80px
     }
 
-    .testimonial-slider {
-        max-width: 600px
-    }
-
     .projects-grid.dual {
         grid-column-gap: 36px;
         grid-row-gap: 80px
@@ -9440,10 +9278,6 @@ h4 {
 
     .hero-title.small {
         padding-bottom: 6px
-    }
-
-    .testimonial-text {
-        font-size: 38px
     }
 
     .detail-card {
@@ -9575,27 +9409,6 @@ h4 {
 
     .four-column {
         grid-row-gap: 48px
-    }
-
-    .testimonial-items {
-        margin-left: 0
-    }
-
-    .testimonial-card {
-        grid-row-gap: 0px;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr;
-        padding-top: 0;
-        padding-bottom: 0
-    }
-
-    .testimonial-image {
-        min-height: 300px;
-        margin-left: 0
-    }
-
-    .testimonial-quote {
-        padding: 60px 0 60px 60px
     }
 
     .scroll-link-2 {
@@ -10206,16 +10019,6 @@ h4 {
     .stacked-content.large {
         grid-row-gap: 60px
     }
-
-    .testimonial-slide-wrapper {
-        width: 100%
-    }
-
-    .testimonial-slider {
-        width: 90vw;
-        max-width: none
-    }
-
     .projects-grid {
         grid-row-gap: 60px
     }
@@ -10277,10 +10080,6 @@ h4 {
 
     .project-wrapper {
         padding-bottom: 60px
-    }
-
-    .testimonial-text {
-        font-size: 34px
     }
 
     .detail-card {
@@ -10355,14 +10154,6 @@ h4 {
         align-items: stretch
     }
 
-    .testimonial-items {
-        margin-left: 5vw
-    }
-
-    .testimonial-card {
-        grid-template-rows: 1fr
-    }
-
     .left-arrow-2 {
         width: 50%;
         height: 60px;
@@ -10380,17 +10171,6 @@ h4 {
     .rotate-text {
         transform: none
     }
-
-    .testimonial-quote {
-        grid-row-gap: 60px;
-        padding: 48px
-    }
-
-    .testimonial-slider-2 {
-        padding-top: 60px;
-        padding-left: 0
-    }
-
     .c-menu-item {
         margin-bottom: 15px
     }
@@ -10896,12 +10676,6 @@ h4 {
         min-height: auto
     }
 
-    .testimonial-slide-wrapper {
-        min-height: 600px;
-        padding-top: 40px;
-        padding-bottom: 80px
-    }
-
     .mask {
         padding-top: 60px;
         padding-bottom: 30px
@@ -10955,11 +10729,7 @@ h4 {
     .project-wrapper {
         padding-bottom: 40px
     }
-
-    .testimonial-text {
-        font-size: 32px
-    }
-
+    
     .detail-card {
         grid-row-gap: 60px;
         padding-left: 36px;
@@ -11011,14 +10781,6 @@ h4 {
 
     .left-arrow-2 {
         background-color: #04090c
-    }
-
-    .testimonial-image {
-        min-height: 225px
-    }
-
-    .testimonial-quote {
-        padding: 36px 28px
     }
 
     .client-name {
