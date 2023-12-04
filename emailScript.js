@@ -6,8 +6,8 @@ function populateMailto() {
     const enquiry = form.elements['enquiry'].value;
 
     const subject = "New Enquiry from felicity.sg";
-    const emailBody = `First Name: ${firstname}\Last Name: ${lastname}\nMobile Number: ${mobile}\nEnquiry: ${enquiry}`;
+    const emailBody = `First Name: ${firstname}\nLast Name: ${lastname}\nMobile Number: ${mobile}\nEnquiry: ${enquiry}`;
 
-    const mailtoLink = `mailto:sharon@felicity.sg?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:consultant@felicity.sg?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
     window.location.href = mailtoLink;
 }
