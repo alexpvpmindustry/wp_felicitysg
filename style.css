@@ -425,6 +425,7 @@ h4,
 h5,
 h6 {
     margin-bottom: 10px;
+    margin-top: 10px;
     font-weight: 700
 }
 
@@ -2246,9 +2247,7 @@ h2 {
     line-height: 1.4em
 }
 
-h3 {
-    margin-top: 0;
-    margin-bottom: 0;
+h3 { 
     font-family: Thicccboi, sans-serif;
     font-size: 30px;
     font-weight: 500;
@@ -2324,7 +2323,7 @@ h4 {
 }
 
 .background.contact-background {
-    background-image: url(https://uploads-ssl.webflow.com/61fd3cdb51b7b172b9d5c240/62436b03aec1561c1cdfa786_a67c4765-a164-4118-b125-19aa0fd00846.jpg);
+    background-image: url(imgs/asian_photos/p6.jpg);
     background-position: 0 0
 }
 
